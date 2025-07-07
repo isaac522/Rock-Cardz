@@ -1,0 +1,89 @@
+@font-face {
+  font-family: RockFont;
+  src: url("Simbiot.otf");
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Header */
+.masthead {
+  background-color: #e6dddd;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.site-title {
+  font-family: RockFont;
+  font-size: 80px;
+  color: white;
+  background: url('title-texture.png') no-repeat center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+/* Cards container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Each card */
+.card {
+  background-color: white;
+  width: 220px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+/* Card image */
+.card img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #993366;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Card title */
+.card h4 {
+  font-family: RockFont;
+  font-size: 1.2em;
+  margin: 0 0 10px;
+}
+
+/* Card text */
+.card p {
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+/* Fixes section */
+#fixes {
+  background-color: #fff8e1;
+  padding: 20px;
+  border-top: 2px dashed #ffa000;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+#fixes h3 {
+  font-family: RockFont;
+  margin-top: 0;
+}
